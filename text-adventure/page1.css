@@ -1,0 +1,39 @@
+p.hobby {
+  color: red;
+  font-size: 20px;
+  font-family: fantasy;
+}
+a {
+  color: white;
+}
+
+Body {
+  background-color: black;
+}
+
+#style {
+  color: white;
+  font-family: cursive;
+}
+
+.option1 {
+  padding: 30;
+  font-size: 20px;
+  font-family: fantasy;
+  text-decoration:none;
+}
+.option2 {
+  padding: 30;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.option3{
+  padding: 30;
+  font-size: 20px;
+}
+
+ol {
+  color: white;
+  padding: 30;
+  text-align: center;
+}

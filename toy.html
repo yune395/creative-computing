@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Road Warrior</title>
+    <link rel="stylesheet" type="text/css" href="toy.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Play:700" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="coinSound">
+      <source src="coinSound.wav" type="audio/wav">
+    </audio>
+    <audio id="borderSound">
+      <source src="borderSound.wav" type="audio/wav">
+    </audio>
+    <audio id="gameOverSound">
+      <source src="gameOverSound.wav" type="audio/wav">
+    </audio>
+    <div id="flex-container">
+      <button class="button" onclick="countdown()">Click Here to Start</button>
+      <div id="time">
+      </div>
+    </div>
+    <div id="coinDisplay">Score:
+      <div id="coin2">
+        <img src="coin.png" height=26 width=26 />
+      </div>
+    </div>
+    <div id="border">
+      <div id="coin">
+        <img src="coin.png" height=40 width=40 />
+      </div>
+      <div id="car">
+        <img src="car.png" height=50 width=100 />
+      </div>
+      <div id="overBox">Game Over
+      </div>
+    </div>
+    <script type="text/javascript" src="toy.js"></script>
+  </body>
+</html>
